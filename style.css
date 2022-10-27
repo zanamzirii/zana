@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+   
+background-image: url(img/moon\ .jpg);
+background-size: cover;
+height: 100vh;
+background-position: bottom;
+background-position:center ;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+.wrapper{
+width: 100%;
+margin: 0 auto;
+
+}
+
+.profile-text-logo{
+    padding-bottom: 30px;
+
+}
+
+.profile-img{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: fit-content;
+}
+
+.profile-img img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.text-logo  {
+    width: 100%;
+    width: fit-content;
+    margin:0 auto;
+    padding-top: 10px;
+
+}
+
+
+.text-logo h2{
+    font-family: Arial Rounded MT;
+    font-style: bold;
+    font-size:38;
+    color: white;
+}
+
+.S-M{
+    width:100%;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.S-M div{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 70px;
+    background-color: rgba(255, 253, 253, 0.26);
+}
+
+
+
+.S-M div a{
+    text-decoration: none;
+    height:70px ;
+}
+
+
+div nav{
+    text-align: center;
+    margin: 10px 0;
+    height: 70px;
+    width: 300px;
+    line-height: 7px;
+}
+
+
+
+div nav h2  {
+    height: 0;
+    font-family: Arial Rounded MT;
+    font-size: 36;
+    font-style: bold;
+    color: white;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    text-transform: capitalize;
+}
+       
+div nav img  {
+    height: 50px;
+    position: relative;   
+    right: 80px; 
+    top: 9px;
+}
+
+div nav .twitter-img{
+    height:60px ;
+    margin-bottom: -8px;
+} 
+
+.footer{
+width: fit-content;
+margin: 0 auto;
+height: calc(40vh - 100px);
+padding-top:60px;
+position: relative;
+bottom: 0;
+}
+
+.footer img{
+    height: 100px;
+}
+    
+@media only screen and (min-width: 768px){
+
+    body{
+        background-image: url(img/peakpx\ \(7\).jpg);
+        background-size: cover;
+        height: 100vh;
+        background-position: bottom;
+        background-position:center ;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }    
+}
